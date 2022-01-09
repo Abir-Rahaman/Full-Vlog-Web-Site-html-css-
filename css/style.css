@@ -8,6 +8,10 @@
 a{
     text-decoration: none;
 }
+.tomato{
+    color: tomato;
+    
+}
 
 
 /* ---------------------------- Nav-section --------------------------------- */
@@ -21,7 +25,13 @@ a{
 }
 .nav-brand a{
     font-size: 35px;
+    color: black;
+   
+}
+.nav-brand a:hover{
+    font-size: 35px;
     color: tomato;
+    transition: 0.5s ease-in-out;
    
 }
 .nav-item{
@@ -33,14 +43,34 @@ a{
     color: gray;
     margin-left: 20px;
 }
+.nav-item a:hover{
+    color: tomato;
+    transition: 0.5s ease-in-out;
+}
 .icon-item{
     margin-right: 50px;
 }
 .fab{
-    font-size: 25px;
-    color: tomato;
+    font-size: 20px;
+    color: black;
     margin-top: 12px;
     margin-left: 10px;
+}
+.fa-facebook-f:hover{
+    color:#3f729b;
+    transition: 0.5s ease-in-out;
+}
+.fa-instagram:hover{
+    color: #D94C4C;
+    transition: 0.5s ease-in-out;
+}
+.fa-twitter:hover{
+    color:#3f729b;
+    transition: 0.5s ease-in-out;
+}
+.fa-youtube:hover{
+    color: red;
+    transition: 0.5s ease-in-out;
 }
 /* ---------------------------- Nav-section --------------------------------- */
 
@@ -90,6 +120,185 @@ a{
     background: transparent;
     transition: 0.5s;
     font-size: 30px;
-  
-
+}
 /* ---------------------------- header-section --------------------------------- */
+
+/* ---------------------------- main-section --------------------------------- */
+#main-section{
+    background:url(/images/Abract01.png);
+    height: 560px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 5%;
+}
+#main-section h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+/* ---------------------------- main-section --------------------------------- */
+
+
+/* ---------------------------- card-section --------------------------------- */
+
+.card-section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+   
+}
+.card-item{
+    padding-bottom: 40px;
+    box-shadow: 5px 10px 30px -10px grey;
+    width: 23%;
+    border-radius: 10px;
+    
+}
+.card-item img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+} 
+.card-text{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.card-button{
+    padding: 10px 25px;
+    margin-top: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    
+
+}
+
+.card-button a:hover{
+    border: 2px solid tomato;
+    padding: 10px 25px;
+    background-color:transparent;
+    transition: 0.5s ease-in-out ;
+    font-size: 20px;
+    color: tomato;
+    border-radius: 20px;
+}
+.card-button a{
+    color: white; 
+    padding: 8px 15px;
+    background-color:tomato;
+    font-size: 15px;
+    border-radius: 5px;
+    
+}
+small{
+    display: block;
+    margin-top: 10px;
+    
+}
+/* ---------------------------- card-section --------------------------------- */
+
+
+/* ---------------------------- blog-section --------------------------------- */
+#blog-section{
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.blog-button{
+   
+    margin-left: -25px;
+}
+.full-section{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.space{
+    margin-top: 10px;
+}
+.space p{
+    width: 45%;
+    background-image: linear-gradient(to right,tomato, rgb(236, 153, 141));
+    padding: 5px 40px;
+    border-radius: 20px;
+    margin-top: 10px; 
+
+}
+.right-side img{
+    margin-bottom: 0px;
+}
+.right-side h1,p{
+    width: 70%;
+    text-align: justify;
+}
+.right-side p{
+    margin-top: 10px;
+}
+.space-0{
+    word-spacing: 90px;   
+}
+.space-1{
+    word-spacing: 78px;   
+}
+.space-2{
+    word-spacing: 93px;   
+}
+.space-3{
+    word-spacing: 115px;  
+}
+.space-4{
+    word-spacing: 110px;   
+}
+.space-5 {
+    word-spacing: 63px;   
+}
+.slidebar h2{
+    margin-bottom: 10px;
+    margin-left: -100px;    
+}
+.another-aside h2{
+    margin-top:150px;
+    margin-left: -100px;
+
+}
+.another-aside img{
+    width: 90%;
+    margin-left: -40px;
+
+} 
+.another-aside h4{
+    margin-left: -40px;
+    width: 90%;
+    margin-top: 20px;
+}
+.lebel{
+    display: flex;
+}
+.indent{
+    text-indent:20px;
+}
+.lebel{
+    width: 31%;
+    padding-bottom: 11px;
+    background-image: linear-gradient(to right,tomato, rgb(236, 153, 141));
+    padding-left: 30px;
+    border-radius: 20px;
+    position: relative;
+    left: 200px;
+    top: -25px;
+
+}
+.popular-lebel{
+    width: 60%;
+    position: relative;
+    left: 5px;
+    top: -25px;
+    
+}
+
+/* ---------------------------- blog-section --------------------------------- */
+
