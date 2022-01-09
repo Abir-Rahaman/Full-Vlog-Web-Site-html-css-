@@ -1,4 +1,45 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family: 'Oswald', sans-serif;
 }
+
+/*----------------------------- global-style--------------------------------- */
+a{
+    text-decoration: none;
+}
+
+
+/* ---------------------------- Nav-section --------------------------------- */
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.nav-brand{
+    margin-left: 50px;
+}
+.nav-brand a{
+    font-size: 35px;
+    color: brown;
+   
+}
+.nav-item{
+    margin-top: 12px;
+
+}
+.nav-item a{
+    font-size: 20px;
+    color: gray;
+    margin-left: 20px;
+}
+.icon-item{
+    margin-right: 50px;
+}
+.fab{
+    font-size: 25px;
+    color: brown;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+/* ---------------------------- Nav-section --------------------------------- */
