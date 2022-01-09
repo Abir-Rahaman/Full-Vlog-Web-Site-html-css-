@@ -21,7 +21,7 @@ a{
 }
 .nav-brand a{
     font-size: 35px;
-    color: brown;
+    color: tomato;
    
 }
 .nav-item{
@@ -38,8 +38,58 @@ a{
 }
 .fab{
     font-size: 25px;
-    color: brown;
+    color: tomato;
     margin-top: 12px;
     margin-left: 10px;
 }
 /* ---------------------------- Nav-section --------------------------------- */
+
+/* ---------------------------- header-section --------------------------------- */
+#header{
+    background: url(/images/camera.png);
+    text-align: center;
+    margin-top: 20px;
+    height: 600px;
+
+}
+
+.header-text{
+    padding-top: 200px;
+    color:tomato;
+}
+.header-text h1{
+    font-size: 60px;
+}
+.header-text h3{
+    font-size: 30px;
+}
+.website-button{
+    font-size: 20px;
+    margin-top: 50px;
+    color: tomato;
+    border: none;
+    background: transparent;
+}
+.website-button a{
+
+    color: white; 
+    border: 5px solid white;
+    padding: 15px 45px;
+    background-color:tomato;
+    font-size: 25px;
+   
+}
+
+.website-button a:hover{
+
+    color: tomato; 
+    border-radius: 30px;
+    border: 2px solid tomato;
+    padding: 15px 45px;
+    border: 5px solid tomato;
+    background: transparent;
+    transition: 0.5s;
+    font-size: 30px;
+  
+
+/* ---------------------------- header-section --------------------------------- */
