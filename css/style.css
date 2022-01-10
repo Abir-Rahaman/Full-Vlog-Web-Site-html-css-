@@ -7,10 +7,21 @@
 /*----------------------------- global-style--------------------------------- */
 a{
     text-decoration: none;
+    
 }
 .tomato{
     color: tomato;
     
+}
+hr{
+    width: 70%;
+    margin-left:auto;
+	margin-right:auto;
+    border: 2px solid tomato;
+    margin-top: 5%;
+    background-color: tomato;
+    border-radius: 5px;
+   
 }
 
 
@@ -203,7 +214,7 @@ small{
 /* ---------------------------- card-section --------------------------------- */
 
 
-/* ---------------------------- blog-section --------------------------------- */
+/* ---------------------------- blog-section--1 --------------------------------- */
 #blog-section{
     margin-top: 10%;
     margin-left: 8%;
@@ -217,9 +228,7 @@ small{
     display: grid;
     grid-template-columns: 70% 30%;
 }
-.space{
-    margin-top: 10px;
-}
+
 .space p{
     width: 45%;
     background-image: linear-gradient(to right,tomato, rgb(236, 153, 141));
@@ -228,9 +237,7 @@ small{
     margin-top: 10px; 
 
 }
-.right-side img{
-    margin-bottom: 0px;
-}
+
 .right-side h1,p{
     width: 70%;
     text-align: justify;
@@ -260,6 +267,9 @@ small{
     margin-bottom: 10px;
     margin-left: -100px;    
 }
+.another-aside {
+    margin-top: -40px;
+}
 .another-aside h2{
     margin-top:150px;
     margin-left: -100px;
@@ -272,8 +282,7 @@ small{
 } 
 .another-aside h4{
     margin-left: -40px;
-    width: 90%;
-    margin-top: 20px;
+    width: 90%; 
 }
 .lebel{
     display: flex;
@@ -290,15 +299,111 @@ small{
     position: relative;
     left: 200px;
     top: -25px;
-
 }
 .popular-lebel{
     width: 60%;
     position: relative;
     left: 5px;
-    top: -25px;
-    
+    top: -25px;   
 }
 
-/* ---------------------------- blog-section --------------------------------- */
+/* ---------------------------- blog-section--1 --------------------------------- */
 
+
+/* ---------------------------- blog-section--2--------------------------------- */
+
+.another-blog h2{
+    margin-bottom: 50px;  
+}
+.another-part{
+    margin-top: 100px;
+}
+/* ---------------------------- blog-section--2--------------------------------- */
+
+/* ---------------------------- blog-section--3 --------------------------------- */
+
+             /* FULLY-SAME-AS-BLOG-SECTION-2 */
+
+/* ---------------------------- blog-section--3--------------------------------- */
+
+
+
+/* ---------------------------- blog-section--4--------------------------------- */
+.email-feild{
+    position: relative;
+    border: none;
+    background: none;
+    outline: none;
+    border: 3px solid tomato;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 50px;
+    
+}
+input{
+    padding: 15px 129px;
+    
+}
+.email-feild:hover{
+    letter-spacing: 2px;
+    font-weight: bolder;
+    transition: 1s;
+    text-transform: uppercase;
+    
+}
+.email-button{
+    width: 100%;
+    background-image: linear-gradient(to right,tomato, rgb(236, 153, 141));
+    padding: 15px 10px;
+    margin-top: 10px; 
+    border: none;
+    margin-top: 20px;
+    
+}
+.email-button a{
+   color: white;
+   font-size: 15px;
+}
+.email-button :hover{
+    
+    letter-spacing: 20px;
+    font-weight: bolder;
+    transition: 1s;
+    text-transform: uppercase;   
+ }
+ .poplar-section{
+     margin-top: 30%;
+ }
+ .popular-post{
+     display: flex;
+   
+ }
+ .popular-post-2{
+    display: flex;
+  
+}
+ .popular-area{
+
+    background-image: linear-gradient(to right,tomato, rgb(236, 153, 141));
+    padding-left: 30px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-left: 7px;
+ }
+ .popular-area-2{
+
+    background-image: linear-gradient(to right,tomato, rgb(236, 153, 141));
+    padding-left: 30px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 7px;
+    
+    
+    
+
+ }
+
+
+
+/* ---------------------------- blog-section--4--------------------------------- */
