@@ -200,7 +200,7 @@ hr{
 }
 .card-button a{
     color: white; 
-    padding: 8px 15px;
+    padding: 10px 25px;
     background-color:tomato;
     font-size: 15px;
     border-radius: 5px;
@@ -398,12 +398,106 @@ input{
     padding: 10px 30px;
     margin-top: 30px;
     margin-left: 7px;
-    
-    
-    
-
  }
 
-
-
 /* ---------------------------- blog-section--4--------------------------------- */
+
+
+
+/* ------------------------------ footer-------------------------------------- */
+footer{
+    display: flex;
+    height: 500px;
+    background-color: black;
+    margin-top: 5%;
+    color: white;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer-email{
+    padding: 10px 40px;
+    margin-top: 20px;
+
+}
+.fa-location-arrow{
+    font-size: 70px;
+    color: tomato;
+    position: relative;
+    right: 28px;
+    top: -10px;
+}
+.insta-part{
+    margin-top: 25%;
+}
+.insta-part h1{
+    font-size: 35px;
+}
+.insta-part-img{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    width: 75%;
+    grid-gap:15px;
+    margin-top: 20px;
+    
+
+}
+.insta-part img{
+   width:100%; 
+   border: 2px solid tomato;  
+}
+.about-us{
+    margin-top: 25%;
+    margin-left: 80px;
+    
+}
+.about-us h1{  
+    font-size: 35px;
+    letter-spacing: 10px;
+    margin-bottom: 40px;
+}
+.about-us P{  
+    font-size: 15px;
+   
+}
+.newsteller-part{
+    margin-top: 25%;
+}
+.newsteller-part h1{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.newsteller-part p{
+    letter-spacing: 1px;
+
+}
+.footer-icon{
+    color: white;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.follow-us-section{
+    margin-top: 25%;
+}
+.follow-us-section h1{
+    font-size: 35px;
+}
+.follow-us-section p{
+    margin-top: 30px;
+    letter-spacing: 10px;
+}
+strong{
+    letter-spacing: 10px;
+}
+.footer-tag p{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    padding-bottom: 20px;
+
+}
+
+
+
+/* ------------------------------ footer-------------------------------------- */
