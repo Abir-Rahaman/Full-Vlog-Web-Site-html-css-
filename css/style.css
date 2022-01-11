@@ -87,7 +87,7 @@ hr{
 
 /* ---------------------------- header-section --------------------------------- */
 #header{
-    background: url(/images/camera.png);
+    background: url(images/camera.png);
     text-align: center;
     margin-top: 20px;
     height: 600px;
@@ -136,7 +136,7 @@ hr{
 
 /* ---------------------------- main-section --------------------------------- */
 #main-section{
-    background:url(/images/Abract01.png);
+    background:url(images/Abract01.png);
     height: 560px;
     width: 100%;
     background-repeat: no-repeat;
