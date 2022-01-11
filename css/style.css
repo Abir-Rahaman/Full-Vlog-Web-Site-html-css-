@@ -87,7 +87,7 @@ hr{
 
 /* ---------------------------- header-section --------------------------------- */
 #header{
-    background-image: url(images/camera.png);
+    background-image: url("../images/camera.png");
     text-align: center;
     margin-top: 20px;
     height: 600px;
